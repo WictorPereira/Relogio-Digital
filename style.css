@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: #08afad;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#caixa-maior{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    height: 200px;
+    width: 550px;
+    background-color:  transparent;
+    border-radius: 15px;
+    box-shadow:  10px 10px 20px #057776,-10px -10px 20px #0be7e4;    
+    padding-top: 15px;
+}
+
+#caixa-maior div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  center;
+    
+    color:  #08afad;
+    background: rgb(0, 0, 0);
+    box-shadow:  6px 6px 18px rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+    letter-spacing: 5px;
+}
+
+#caixa-maior span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+#caixa-maior span.tempo{
+    font-size: 15px;
+}
